@@ -1,0 +1,4 @@
+[console_scripts]
+joystick_control = usf_robot.joystick_control:main
+robot_controller = usf_robot.robot_controller:main
+

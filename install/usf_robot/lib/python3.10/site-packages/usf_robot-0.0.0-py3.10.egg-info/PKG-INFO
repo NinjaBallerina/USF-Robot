@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: usf-robot
+Version: 0.0.0
+Summary: ROS2 package for controlling a 7-DOF robot with Pololu Mini Maestro 12-channel controller and 8BitDo joystick.
+Home-page: UNKNOWN
+Maintainer: Farida
+Maintainer-email: fwinters@usf.edu
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
