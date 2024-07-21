@@ -41,7 +41,7 @@ source install/setup.bash
 4. To run the package, use the provided launch file:
 ros2 launch usf_robot robot_joystick.launch.py
 
-### What happens When You Run It?
+### What Happens When You Run It?
 
 - **joy_node**: This node starts and publishes joystick inputs on the `joy` topic.
 - **joystick_control**: This node subscribes to the `joy` topic and logs the joystick inputs for monitoring.
