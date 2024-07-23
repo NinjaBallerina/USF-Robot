@@ -1,3 +1,6 @@
+
+![USF Robot](https://github.com/user-attachments/assets/ccfe7c2a-11a5-4213-8e2a-a2503e4733c2)
+
 ### USF Robot ROS 2 Package ###
 
 This ROS 2 package, `usf_robot`, is designed to control a 5-DOF robot using a `Pololu Micro Maestro` 6-channel controller and an `8BitDo Ultimate C` joystick. The package includes nodes for handling joystick inputs and controlling the servos on the robot.
