@@ -1,5 +1,9 @@
-
+### Mechanical Design ###
 ![USF Robot](https://github.com/user-attachments/assets/ccfe7c2a-11a5-4213-8e2a-a2503e4733c2)
+
+### Wiring Schematics ###
+<img width="780" alt="USF Robot Wiring Schematics" src="https://github.com/user-attachments/assets/9a715ee7-1f29-409d-8d8e-353582f34d93">
+
 
 ### USF Robot ROS 2 Package ###
 
