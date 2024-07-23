@@ -7,7 +7,7 @@
 <img width="780" alt="USF Robot Wiring Schematics" src="https://github.com/user-attachments/assets/9a715ee7-1f29-409d-8d8e-353582f34d93">
 
 ### Joystick Control
-![joystick control](https://github.com/user-attachments/assets/bc115a1d-acce-490c-982c-3817bdae63a4)
+![joystick control](https://github.com/user-attachments/assets/47673854-e3c0-47de-a158-6e74cfb0968f)
 
 ### USF Robot ROS 2 Package ###
 
