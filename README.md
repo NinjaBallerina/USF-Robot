@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="(https://github.com/user-attachments/assets/b64f52fa-e2df-4966-9e11-c111bd1ff409)" alt="USF"/>
-</p>
+![USF](https://github.com/user-attachments/assets/9260fb70-299b-48f8-ab3f-0137140074c8)
 
 ### Mechanical Design ###
 ![USF Robot](https://github.com/user-attachments/assets/ccfe7c2a-11a5-4213-8e2a-a2503e4733c2)
