@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![USF](https://github.com/user-attachments/assets/b64f52fa-e2df-4966-9e11-c111bd1ff409)" alt="USF"/>
+  <img src="(https://github.com/user-attachments/assets/b64f52fa-e2df-4966-9e11-c111bd1ff409)" alt="USF"/>
 </p>
 
 ### Mechanical Design ###
