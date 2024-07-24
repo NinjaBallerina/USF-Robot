@@ -110,7 +110,7 @@ class RobotController(Node):
 
         if self.last_base_position is None:
             self.last_base_position = 6000  # Initialize if first move
-        position_change = direction * 24  # Reduced increment to slow down rotation
+        position_change = direction * 48  # Increased increment to speed up rotation
         position = self.last_base_position + position_change
         position = max(min(position, 8000), 4000)  # Make sure the position is within the full range
         if direction != 0:
