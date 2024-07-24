@@ -78,11 +78,11 @@ class RobotController(Node):
         if btn_lb:  # BtnLB pressed
             if self.servo4_position is None:
                 self.servo4_position = 6000  # Initialize if first move
-            self.servo4_position = min(self.servo4_position + 240, 8000)  # Close servo4
+            self.servo4_position = min(self.servo4_position + 480, 8000)  # Close servo4
         elif btn_rb:  # BtnRB pressed
             if self.servo4_position is None:
                 self.servo4_position = 6000  # Initialize if first move
-            self.servo4_position = max(self.servo4_position - 240, 4000)  # Open servo4
+            self.servo4_position = max(self.servo4_position - 480, 4000)  # Open servo4
         if btn_lb or btn_rb:  # Only set target if there's a change
             self.set_servo_target(4, self.servo4_position)
 
@@ -131,7 +131,7 @@ class RobotController(Node):
 
             angle_diff = angle_degrees - self.last_gripper_angle
             if math.fabs(angle_diff) > 2:
-                direction = 1 if angle_diff > 0 else -1  # Clockwise if greater than zero, else counterclockwise
+                direction = -1 if angle_diff > 0 else 1  # In this case, counterclockwise if greater than zero, else clockwise
             else:
                 angle_degrees = self.last_gripper_angle
                 direction = self.last_direction
