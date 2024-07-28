@@ -3,6 +3,8 @@
 ### Mechanical Design ###
 ![USF Robot](https://github.com/user-attachments/assets/ccfe7c2a-11a5-4213-8e2a-a2503e4733c2)
 
+<img width="957" alt="USF Robot Fusion Design" src="https://github.com/user-attachments/assets/d4c6bc66-5d32-44be-8fa6-45c02d2ffef4">
+
 ### Wiring Schematics ###
 <img width="780" alt="USF Robot Wiring Schematics" src="https://github.com/user-attachments/assets/9a715ee7-1f29-409d-8d8e-353582f34d93">
 
@@ -51,6 +53,14 @@ source install/setup.bash
 
 4. To run the package, use the provided launch file:
 ros2 launch usf_robot robot_joystick.launch.py
+
+** NOTE **: If you encouner this error:
+` AttributeError: 'RobotController' object has no attribute 'last_direction' `
+
+Please hit `CTRL+C` then run:
+    ros2 launch usf_robot robot_joystick.launch.py
+    
+Perform this until the error is gone.
 
 ### What Happens When You Run It?
 
