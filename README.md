@@ -58,7 +58,7 @@ cd ~/usf_robot
 **NOTE**: If you encouner this error:
 ` AttributeError: 'RobotController' object has no attribute 'last_direction' `
 
-Please hit `CTRL+C` then run:
+Please hit `CTRL+C` then type this again:
 `ros2 launch usf_robot robot_joystick.launch.py`
     
 Perform this until the error is gone.
