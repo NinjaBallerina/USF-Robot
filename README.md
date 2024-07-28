@@ -4,7 +4,7 @@
 ![USF Robot](https://github.com/user-attachments/assets/ccfe7c2a-11a5-4213-8e2a-a2503e4733c2)
 
 ### Mechanical Design (Autodesk Fusion) ###
-<img width="957" alt="USF Robot Fusion Design" src="https://github.com/user-attachments/assets/d4c6bc66-5d32-44be-8fa6-45c02d2ffef4">
+<img width="958" alt="USF Robot Fusion Design" src="https://github.com/user-attachments/assets/b2e5d9a7-a46c-4174-a6a0-838207bb31be">
 
 ### Wiring Schematics ###
 <img width="780" alt="USF Robot Wiring Schematics" src="https://github.com/user-attachments/assets/9a715ee7-1f29-409d-8d8e-353582f34d93">
