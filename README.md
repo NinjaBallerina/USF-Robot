@@ -4,7 +4,7 @@
 ![USF Robot](https://github.com/user-attachments/assets/ccfe7c2a-11a5-4213-8e2a-a2503e4733c2)
 
 ### Mechanical Design (Autodesk Fusion) ###
-<img width="958" alt="USF Robot Fusion Design" src="https://github.com/user-attachments/assets/b2e5d9a7-a46c-4174-a6a0-838207bb31be">
+<img width="956" alt="USF Robot Fusion Design" src="https://github.com/user-attachments/assets/29ea50c3-7bce-414c-ad69-5e53df58160f">
 
 ### Wiring Schematics ###
 <img width="780" alt="USF Robot Wiring Schematics" src="https://github.com/user-attachments/assets/9a715ee7-1f29-409d-8d8e-353582f34d93">
@@ -44,21 +44,24 @@ The robot has the following 5 degrees of freedom:
 ### Running the Package
 
 1. First, make sure you have ROS 2 `Humble Hawksbill` installed. Open a new terminal then navigate to `usf_robot` from the root:
-cd ~/usf_robot
+`cd ~/usf_robot`
 
-2. Source the ROS 2 `Humble` environment:
+2. Before running the package, you need to build it using `colcon`. This compiles the workspace and prepares the necessary executables:
+`colcon build`
+  
+3. Source the ROS 2 `Humble` environment:
 `source /opt/ros/humble/setup.bash`
 
-3. Source the workspace:
+4. Source the workspace:
 `source install/setup.bash`
 
-4. To run the package, use the provided launch file:
+5. To run the package, use the provided launch file:
 `ros2 launch usf_robot robot_joystick.launch.py`
 
 **NOTE**: If you encouner this error:
 ` AttributeError: 'RobotController' object has no attribute 'last_direction' `
 
-Please hit `CTRL+C` then type this again:
+Please press a button a few times on the joystick such as Button A or Button B, then hit `CTRL+C` and type this again:
 `ros2 launch usf_robot robot_joystick.launch.py`
     
 Perform this until the error is gone.
@@ -74,9 +77,9 @@ Perform this until the error is gone.
 If you need to adjust servo positions without using the joystick, you can use the `Pololu Maestro Control Center`. Connect the USB from the `Pololu Micro Maestro` to the `Raspberry Pi 5` and follow these steps:
 
 1. Navigate to the `Maestro Control Center` directory:
-cd ~/Documents/maestro-linux/
+`cd ~/Documents/maestro-linux/`
 
 2. Run the `Maestro Control Center` using Mono:
-mono MaestroControlCenter
+`mono MaestroControlCenter`
 
 This will launch the `Pololu Maestro Control Center`, where you can manually adjust the positions of your servos using sliders.
