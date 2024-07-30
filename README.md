@@ -58,7 +58,7 @@ The robot has the following 5 degrees of freedom:
 5. To run the package, use the provided launch file:
 `ros2 launch usf_robot robot_joystick.launch.py`
 
-**NOTE**: If you encouner this error:
+**NOTE**: If you encounter this error:
 ` AttributeError: 'RobotController' object has no attribute 'last_direction' `
 
 Please press a button a few times on the joystick such as Button A or Button B, then hit `CTRL+C` and type this again:
