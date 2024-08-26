@@ -41,6 +41,7 @@ The robot has the following 4 degrees of freedom:
 4. **Wrist Rotation (Servo 3)**: Rotates the wrist or end effector.
 
 Also, the robot is equipped with a gripper:
+
 **Gripper Operation (Servo 4)**: Opens and closes the gripper. This function is important for object manipulation, but is not counted in the primary DOF calculation.
 
 ### Running the Package
