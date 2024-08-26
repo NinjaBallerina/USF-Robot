@@ -14,7 +14,7 @@
 
 ### USF Robot ROS 2 Package ###
 
-This ROS 2 package, `usf_robot`, is designed to control a 5-DOF robot using a `Pololu Micro Maestro` 6-channel controller and an `8BitDo Ultimate C` joystick. The package includes nodes for handling joystick inputs and controlling the servos on the robot.
+This ROS 2 package, `usf_robot`, is designed to control a 4-DOF robot using a `Pololu Micro Maestro` 6-channel controller and an `8BitDo Ultimate C` joystick. The package includes nodes for handling joystick inputs and controlling the servos on the robot.
 
 ### Description
 
@@ -34,12 +34,14 @@ The `usf_robot` package consists of two main nodes:
 
 ### Degrees of Freedom (DOF)
 
-The robot has the following 5 degrees of freedom:
+The robot has the following 4 degrees of freedom:
 1. **Base Rotation (Servo 0)**: Rotates the robot at the base.
 2. **Link 1 Movement (Servo 1)**: Moves the first link of the robot arm.
 3. **Link 2 Movement (Servo 2)**: Moves the second link of the robot arm.
 4. **Wrist Rotation (Servo 3)**: Rotates the wrist or end effector.
-5. **Gripper Operation (Servo 4)**: Opens and closes the gripper.
+
+Also, the robot is equipped with a gripper:
+**Gripper Operation (Servo 4)**: Opens and closes the gripper. This function is important for object manipulation, but is not counted in the primary DOF calculation.
 
 ### Running the Package
 
