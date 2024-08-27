@@ -34,7 +34,7 @@ The `usf_robot` package consists of two main nodes:
 
 ### Degrees of Freedom (DOF)
 
-The robot has the following 4 degrees of freedom:
+The robot has the following 5 degrees of freedom:
 1. **Base Rotation (Servo 0)**: Rotates the robot at the base.
 2. **Link 1 Movement (Servo 1)**: Moves the first link of the robot arm.
 3. **Link 2 Movement (Servo 2)**: Moves the second link of the robot arm.
