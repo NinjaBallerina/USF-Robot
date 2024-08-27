@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='Farida',
     maintainer_email='fwinters@usf.edu',
-    description='ROS2 package for controlling a 4-DOF robot with Pololu Micro Maestro 6-channel controller and 8BitDo Ultimate C joystick.',
+    description='ROS2 package for controlling a 5-DOF robot with Pololu Micro Maestro 6-channel controller and 8BitDo Ultimate C joystick.',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
