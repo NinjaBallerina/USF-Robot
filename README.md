@@ -1,13 +1,13 @@
 ![USF](https://github.com/user-attachments/assets/9260fb70-299b-48f8-ab3f-0137140074c8)
 
 ### USF Robot ###
-![USF Robot 3D Printed](https://github.com/user-attachments/assets/6138831c-cb3c-42aa-8bf0-c28a9c1c77e7)
+![USF Robot](https://github.com/user-attachments/assets/57f332e3-9ef5-4b41-9066-4761693ca48a)
 
 ### Mechanical Design (Autodesk Fusion) ###
 <img width="955" alt="USF Robot" src="https://github.com/user-attachments/assets/1fb16194-85bb-4b31-90d5-9e7a2b0da2bb">
 
 ### Wiring Schematics ###
-<img width="780" alt="USF Robot Wiring Schematics" src="https://github.com/user-attachments/assets/9a715ee7-1f29-409d-8d8e-353582f34d93">
+<img width="901" alt="USF Robot Wiring" src="https://github.com/user-attachments/assets/758406f2-8fb8-494d-95e3-4ef925842b36">
 
 ### Joystick Control
 ![joystick control](https://github.com/user-attachments/assets/47673854-e3c0-47de-a158-6e74cfb0968f)
