@@ -83,3 +83,15 @@ If you need to adjust servo positions without using the joystick, you can use th
 `mono MaestroControlCenter`
 
 This will launch the `Pololu Maestro Control Center`, where you can manually adjust the positions of your servos using sliders.
+
+### Important: Servo Centering Before Assembly
+
+Before assembling the robot, you must center each servo motor using the **Pololu Maestro Control Center**. If the servos are not centered before assembly, the controller may not correctly control the servos, even if the control range is set appropriately.
+
+To center the servos:
+1. Connect the Pololu Micro Maestro to your Raspberry Pi 5.
+2. Open the Maestro Control Center on the Raspberry Pi 5 (see instructions above).
+3. For each servo (channels 0-4), use the slider in the Maestro Control Center to set its position to 1500, the center position.
+4. While the servo is held at the center position by the Maestro Control Center, manually adjust the servo horn to its physical center position. This means aligning the servo arm to be roughly at a 90-degree angle. This guarantees that the servo's physical position matches the center command from the Maestro.
+
+<img width="659" alt="ServoCenterPosition" src="https://github.com/user-attachments/assets/06b1efab-64b4-4264-b33a-332352d4aca1">
