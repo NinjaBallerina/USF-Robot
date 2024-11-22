@@ -89,7 +89,7 @@ This will launch the `Pololu Maestro Control Center`, where you can manually adj
 Before assembling the robot, you must center each servo motor using the **Pololu Maestro Control Center**. If the servos are not centered before assembly, the controller may not correctly control the servos, even if the control range is set appropriately.
 
 To center the servos:
-1. Connect the Pololu Micro Maestro to your Raspberry Pi 5.
+1. Connect the Pololu Micro Maestro to your Raspberry Pi 5 with the USB cable.
 2. Open the Maestro Control Center on the Raspberry Pi 5 (see instructions above).
 3. For each servo (channels 0-4), use the slider in the Maestro Control Center to set its position to 1500, the center position.
 4. While the servo is held at the center position by the Maestro Control Center, manually adjust the servo horn to its physical center position. This means aligning the servo arm to be roughly at a 90-degree angle. This guarantees that the servo's physical position matches the center command from the Maestro.
